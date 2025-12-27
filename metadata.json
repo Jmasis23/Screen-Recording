@@ -3,6 +3,7 @@
   "description": "A high-end screen recording and video editing suite for Windows, featuring auto-zoom, professional cursor smoothing, and beautiful branding tools.",
   "requestFramePermissions": [
     "camera",
-    "microphone"
+    "microphone",
+    "display-capture"
   ]
 }

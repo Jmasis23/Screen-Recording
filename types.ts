@@ -10,11 +10,13 @@ export interface EditorSettings {
   aspectRatio: AspectRatio;
   showCursor: boolean;
   cursorScale: number;
+  cursorSmoothing: number; // New: 0 to 100
   autoZoom: boolean;
   zoomAmount: number;
   webcamEnabled: boolean;
   webcamPosition: 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right';
   webcamSize: number;
+  trimRange: [number, number]; // [start %, end %]
 }
 
 export type AppState = 'idle' | 'recording' | 'editing' | 'exporting';

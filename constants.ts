@@ -10,11 +10,13 @@ export const DEFAULT_SETTINGS: EditorSettings = {
   aspectRatio: '16:9',
   showCursor: true,
   cursorScale: 1.5,
+  cursorSmoothing: 40,
   autoZoom: true,
   zoomAmount: 1.2,
   webcamEnabled: false,
   webcamPosition: 'bottom-left',
   webcamSize: 180,
+  trimRange: [10, 90],
 };
 
 export const GRADIENTS = [
